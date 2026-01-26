@@ -1,6 +1,15 @@
 .parent {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    background-color: black;
-    padding: 30px;
+    background-color: #f2f2f2;
+    padding: 40px; /* Increased padding around the edges */
+    
+    /* SWITCH TO GRID */
+    display: grid;
+    /* responsive columns: at least 320px wide, expanding to fill space */
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px; /* Bigger gap between cards */
+    
+    /* Center content if there are only a few cards */
+    justify-content: center; 
 }

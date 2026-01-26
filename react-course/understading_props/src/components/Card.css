@@ -1,20 +1,151 @@
 .card {
-    height: 400px;
-    width: 300px;
     background-color: rgb(255, 255, 255);
     border-radius: 30px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    /* RESPONSIVE CHANGES HERE */
+    width: 100%;        /* Takes up full width of the parent */
+    max-width: 360px;   /* Stops growing after 360px */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    flex-shrink: 0;
 }
 
+/* --- Top Section --- */
 .card .top {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.card .top .amazon_icon {
+.card .top .logo-container {
     height: 50px;
     width: 50px;
-    padding: 3px;
     border-radius: 50%;
-    border: 1px solid #9d9a9a;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    /* Prevent logo from shrinking on small screens */
+    flex-shrink: 0; 
+}
+
+.card .top .company_logo {
+    width: 100%;
+    height: auto;
+}
+
+.card .top .save_button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: transparent;
+    border: 1px solid #e0e0e0;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #555;
+}
+
+.card .top .save_button img {
+    width: 14px;
+    height: 14px;
+    opacity: 0.6;
+}
+
+/* --- Mid Section --- */
+.company-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    flex-wrap: wrap; /* Allows text to wrap if company name is long */
+}
+
+.company-name {
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+}
+
+.posted-time {
+    color: #888;
+    font-size: 14px;
+}
+
+.job-role {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 16px 0;
+    color: #111;
+    line-height: 1.3; /* Better readability for multi-line titles */
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap; /* Important: Allows tags to stack on very small screens */
+}
+
+.tag {
+    background-color: #f3f3f3;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #444;
+}
+
+/* --- Divider --- */
+.divider {
+    height: 1px;
+    background-color: #eee;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* --- Bottom Section --- */
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Safety: wrap if content collides on tiny screens */
+    flex-wrap: wrap; 
+    gap: 15px; 
+}
+
+.salary-info .amount {
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+}
+
+.salary-info .location {
+    font-size: 13px;
+    color: #888;
+    margin-top: 2px;
+}
+
+.apply_button {
+    background-color: #111;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s;
+    
+    /* Optional: Make button full width on very small devices */
+    white-space: nowrap;
+}
+
+.apply_button:hover {
+    background-color: #333;
 }
