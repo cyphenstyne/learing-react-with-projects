@@ -1,0 +1,20 @@
+.card {
+    height: 400px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+.card .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .top .amazon_icon {
+    height: 50px;
+    width: 50px;
+    padding: 3px;
+    border-radius: 50%;
+    border: 1px solid #9d9a9a;
+}
