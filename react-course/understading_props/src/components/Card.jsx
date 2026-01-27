@@ -4,40 +4,11 @@ function Card() {
     return (
         <div className="card">
             <div className="top">
-                <div className="logo-container">
-                    <img 
-                        className='company_logo' 
-                        src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg" 
-                        alt="Airbnb Logo" 
-                    />
-                </div>
-                <button className='save_button'>
-                    Save
-                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWJvb2ttYXJrLWljb24gbHVjaWRlLWJvb2ttYXJrIj48cGF0aCBkPSJNMTcgM2EyIDIgMCAwIDEgMiAydjE1YTEgMSAwIDAgMS0xLjQ5Ni44NjhsLTQuNTEyLTIuNTc4YTIgMiAwIDAgMC0xLjk4NCAwbC00LjUxMiAyLjU3OEExIDEgMCAwIDEgNSAyMFY1YTIgMiAwIDAgMSAyLTJ6Ii8+PC9zdmc+" alt="bookmark" />
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F019%2F136%2F322%2Foriginal%2Famazon-logo-amazon-icon-free-free-vector.jpg&f=1&nofb=1&ipt=790067eceddc45c5a937fb8c793b06850ab8e20a115b5669b0f649426dd7cc4d" alt="" />
+                <button>
+                    save
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWJvb2ttYXJrLWljb24gbHVjaWRlLWJvb2ttYXJrIj48cGF0aCBkPSJNMTcgM2EyIDIgMCAwIDEgMiAydjE1YTEgMSAwIDAgMS0xLjQ5Ni44NjhsLTQuNTEyLTIuNTc4YTIgMiAwIDAgMC0xLjk4NCAwbC00LjUxMiAyLjU3OEExIDEgMCAwIDEgNSAyMFY1YTIgMiAwIDAgMSAyLTJ6Ii8+PC9zdmc+" alt="" />
                 </button>
-            </div>
-
-            <div className="mid">
-                <div className="company-info">
-                    <span className="company-name">Airbnb</span>
-                    <span className="posted-time">5 days ago</span>
-                </div>
-                <h2 className="job-role">Junior UI/UX Designer</h2>
-                
-                <div className="tags">
-                    <span className="tag">Contract</span>
-                    <span className="tag">Remote</span>
-                </div>
-            </div>
-
-            <div className="divider"></div>
-
-            <div className="bottom">
-                <div className="salary-info">
-                    <div className="amount">$100/hr</div>
-                    <div className="location">Delhi, India</div>
-                </div>
-                <button className="apply_button">Apply now</button>
             </div>
         </div>
     )
