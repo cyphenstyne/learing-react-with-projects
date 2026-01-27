@@ -3,7 +3,6 @@ import './Card.css'
 function Card() {
     return (
         <div className="card">
-            {/* Top Section: Logo and Save Button */}
             <div className="top">
                 <div className="logo-container">
                     <img 
@@ -18,7 +17,6 @@ function Card() {
                 </button>
             </div>
 
-            {/* Middle Section: Job Info */}
             <div className="mid">
                 <div className="company-info">
                     <span className="company-name">Airbnb</span>
@@ -32,10 +30,8 @@ function Card() {
                 </div>
             </div>
 
-            {/* Divider Line */}
             <div className="divider"></div>
 
-            {/* Bottom Section: Price and Apply */}
             <div className="bottom">
                 <div className="salary-info">
                     <div className="amount">$100/hr</div>
