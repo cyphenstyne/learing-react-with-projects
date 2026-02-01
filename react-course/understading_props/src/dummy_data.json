@@ -1,0 +1,56 @@
+[
+  {
+    "company_name": "Airbnb",
+    "company_logo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F1200%2Fairbnb.jpg&f=1&nofb=1&ipt=751890b3b8d5c63f85c22095b9178f9c8d13cf9e98566e8639532983e332af9f",
+    "role": "Junior UI/UX Designer",
+    "posted_time": "5 days ago",
+    "job_type": ["Contract", "Remote"],
+    "salary": "$100/hr",
+    "location": "Delhi, India"
+  },
+  {
+    "company_name": "Apple",
+    "company_logo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F019%2F136%2F458%2Fnon_2x%2Fapple-logo-apple-icon-free-free-vector.jpg&f=1&nofb=1&ipt=6f69f18d9b51ef21984b39829cb5113058b59e760e88d2fac46593c8973f7e63",
+    "role": "Graphic Designer",
+    "posted_time": "6 days ago",
+    "job_type": ["Full-Time", "Flexible Schedule"],
+    "salary": "$85-120k",
+    "location": "Kerala, India"
+  },
+  {
+    "company_name": "Amazon",
+    "company_logo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvectorified.com%2Fimages%2Famazon-app-icon-18.png&f=1&nofb=1&ipt=10c5e969f76597baeb6679009181ce53e2283c59fd405aed76c2e6b001eabe63",
+    "role": "Senior UI/UX Designer",
+    "posted_time": "8 days ago",
+    "job_type": ["Part-Time", "Senior Level"],
+    "salary": "$120/hr",
+    "location": "Mumbai, India"
+  },
+  {
+    "company_name": "Google",
+    "company_logo": "https://www.gstatic.com/marketing-cms/assets/images/d5/dc/cfe9ce8b4425b410b49b7f2dd3f3/g.webp=s96-fcrop64=1,00000000ffffffff-rw",
+    "role": "Graphic Designer",
+    "posted_time": "30 days ago",
+    "job_type": ["Part-Time", "Flexible Schedule"],
+    "salary": "$150-220k",
+    "location": "Kochi, India"
+  },
+  {
+    "company_name": "Dribbble",
+    "company_logo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F012%2F660%2F867%2Fnon_2x%2Fdribbble-logo-on-transparent-isolated-background-free-vector.jpg&f=1&nofb=1&ipt=75a7466a1b30051e723bd17f26af47dbf5c56d2b770beca798bf623501c101ad",
+    "role": "Senior Motion Designer",
+    "posted_time": "18 days ago",
+    "job_type": ["Contract", "Remote"],
+    "salary": "$85/hr",
+    "location": "Chennai, India"
+  },
+  {
+    "company_name": "Netflix",
+    "company_logo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F006%2F874%2F247%2Foriginal%2Fnetflix-logo-icon-on-white-background-free-vector.jpg&f=1&nofb=1&ipt=46cdd2159a8e04d1066bb1282dd1853d1eda2c40a9c29e0bfdcf1645d308aef5",
+    "role": "Senior UX Researcher",
+    "posted_time": "12 hours ago",
+    "job_type": ["Contract", "On-site"],
+    "salary": "$110/hr",
+    "location": "Mumbai, India"
+  }
+]

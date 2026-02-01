@@ -1,9 +1,11 @@
 .parent {
     min-height: 100vh;
     width: 100%;
-    background-color: #f2f2f2;
+    background-color: #313030;
     padding: 40px;
     display: flex;
-    justify-content: center; 
+    justify-content: center;   
     align-items: center;
+    gap: 30px; 
+    flex-wrap: wrap;
 }

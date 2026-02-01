@@ -1,5 +1,126 @@
 .card {
-    height: 400px;
+    height: 360px;
     width: 300px;
-    border-radius: 30px
+    border-radius: 30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
 }
+
+.card .top {
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card .top .company_logo{
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #dad8d8;
+    padding: 7px;
+}
+
+.card .top .save_button {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #dad8d8;
+    color: #8a8888;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 26px;
+    width: 60px;
+    padding: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.card .middle {
+    padding: 18px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card .middle .basic_info {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: baseline;
+    gap: 2px;
+}
+
+.card .middle .basic_info .time_posted {
+    font-size: 10px;
+    color: #8a8888; 
+}
+
+.card .middle .filter {
+    display: flex;
+    gap: 6px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+.card .middle .filter .job_type{
+    font-size: 11px;
+    background-color: #dad8d8;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 6px 12px;
+    white-space: nowrap;
+}
+
+.card .middle .filter .level{
+    font-size: 11px;
+    background-color: #dad8d8;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 6px 12px;
+    white-space: nowrap;
+}
+
+.card .bottom {
+    margin-top: auto;
+    padding: 0 18px 20px 18px;
+}
+
+.card .bottom .divider {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 0 0 15px 0;
+    width: 100%;
+}
+
+.card .bottom .bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .bottom .salary {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.card .bottom .location {
+    font-size: 11px;
+    color: #8a8888;
+    margin-top: 2px;
+}
+
+.card .bottom .apply-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
